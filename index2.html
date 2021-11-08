@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Any Noivas</title>
+   
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+      body{
+        background:purple;
+        
+      }
+      /*
+      <!--css externo-->*/
+  .wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+
+
+
+.wrapper .button:nth-child(4):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #ff0000;
+}/*fim css externo
+
+      */
+      
+        .navbar{
+            background: linear-gradient(90deg,black,purple,rgb(185, 3, 185),black);
+            
+                 } 
+
+            .banner2{
+              width: 90%;
+            
+              margin-left: 5vw;
+            
+              
+            }
+            .banner2 img{
+              height: 40vw;
+            }
+
+            .descricao{                      
+              background-color: rgba(148,0,211,0.5);
+             
+
+            }
+           
+                     
+             .imag-block{               
+               box-shadow: 10px 10px 10px rgb(94, 92, 92);
+               width: 23vw;
+               margin: 10px 5px;
+               border-radius: 10px;
+               
+                  
+               
+             } 
+             .imag-block:hover{
+
+            transform: skewX(5em);
+             box-shadow: 10px 15px 20px rgb(15, 15, 15);
+
+             }    
+             .mold{
+               border-radius: 5px;
+             }
+             .img-margin{
+               box-shadow: 5px 5px 15px;
+               border-radius: 10px;
+               width: 95vw;
+               
+               
+                              
+             }
+            
+       
+        </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+<head>
+<div class="banner"> 
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          
+          <a class="navbar-brand " href="#"><img  class="img-fluid" src="logo Generico1.png"width="190"   alt=""></a>
+          
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: azure;" aria-current="page" href="#">Buffet</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: azure;" href="#">Decoração</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " style="color: azure;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Trajes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Masculino</a></li>
+                  <li><a class="dropdown-item" href="#">Feminino</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Damas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a style="color: azure;" class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Eventos</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" size="40" placeholder="Busca" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Busca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</div>
+
+<div class="banner2">
+    <img class="banner2 img-fluid" src="banner2 (1).jpg" width="1250px" height="1" alt="">
+</div>
+    
+
+</head>
+<main>
+ <div class="row descricao">
+   <div class="col-md-3">
+<img class="img-fluid img-margin" src="descrição lateral.jpg" alt="">   
+</div>
+<div class="col-md-9 text">
+  <h3>Descrição</h3>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+</div>
+</div>
+<div class="row descricao">
+
+  <div class="col-md-9">
+    <h3>Descrição</h3>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </div>
+   <div class="col-md-3">
+     <img class="img-fluid img-margin" src="banner3.jpg" alt="">
+   </div>
+
+</div>
+
+<div class="row ">
+  <div class="col-md-3">
+    <h3>Descrição</h3>
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</div>
+
+  <div class="col-md-9"> <img class="img-fluid imag-block" src="IMAGENS/BLOCK1.jpg" alt=""> 
+  <img class="img-fluid imag-block" src="IMAGENS/BLOCK2.jpg"  alt="">
+  <img class="img-fluid imag-block" src="IMAGENS/BLOCK3.jpg" alt=""></div>
+
+</div>
+
+ </main>
+ 
+ 
+<br>
+
+
+
+
+    <footer>
+      <hr>
+      
+    
+    <div class="wrapper" >
+     
+      <div class="button col-md-3">
+        
+
+        <div class="icon"><i class="fab fa-facebook-f"></i></div>
+        <span>Facebook</span>
+      </div>
+      <div class="button col-md-3">
+        <div class="icon"><i class="fab fa-twitter"></i></div>
+        <span>Twitter</span>
+      </div>
+      <div class="button col-md-3">
+        <div class="icon"><i class="fab fa-instagram"></i></div>
+        <span>Instagram</span>
+      </div>
+      
+
+      <div class="button col-md-3">
+        <div class="icon"><i class="fab fa-youtube"></i></div>
+        <span>YouTube</span>
+      </div>
+       <p style="float: right;margin-right: 5px;">Site desenvolvido por <i> ersantoli@gmail.com</i> </p>
+    </div>
+    
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
